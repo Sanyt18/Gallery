@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-image: url(/img/img15.png); */
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((30vw - 40px)/ 16*9);
+    margin: 10px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+}
+.photo1{
+    background-image: url(/img/img1.png);
+}
+.photo2{
+    background-image: url(/img/img2.png);
+}
+.photo3{
+    background-image: url(/img/img3.png);
+}
+.photo4{
+    background-image: url(/img/img4.png);
+}
+.photo5{
+    background-image: url(/img/img5.png);
+}
+.photo6{
+    background-image: url(/img/img6.png);
+}
+.photo7{
+    background-image: url(/img/img7.png);
+}
+.photo8{
+    background-image: url(/img/img8.jpg);
+}
+.photo9{
+    background-image: url(/img/img9.png);
+}
+.photo10{
+    background-image: url(/img/img10.png);
+}
+.photo11{
+    background-image: url(/img/img11.png);
+}
+.photo12{
+    background-image: url(/img/img12.png);
+}
+.photo13{
+    background-image: url(/img/img13.png);
+}
+.photo14{
+    background-image: url(/img/img14.png);
+}
